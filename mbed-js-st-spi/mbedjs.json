@@ -1,0 +1,9 @@
+{
+	"source": [
+		"."
+	],
+	"includes": [
+		"SPI_JS/SPI-js.h"
+	],
+	"name": "SPI_JS_library"
+}

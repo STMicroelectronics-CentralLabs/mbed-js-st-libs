@@ -1,0 +1,16 @@
+{
+  "name": "mbed-js-st-serial-interface",
+  "author": {
+    "name": "STMicroelectronics"
+  },
+  "description": "JavaScript library for Serial Interface on Mbed OS",
+  "keywords": ["mbed", "js", "serial-interface", "st", "mbed-os"],
+  "homepage": "https://github.com/STMicroelectronics-CentralLabs/mbed-js-st-libs#readme",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/STMicroelectronics-CentralLabs/mbed-js-st-libs.git"
+  },
+  "dependencies": {},
+  "version": "1.0.0"
+}

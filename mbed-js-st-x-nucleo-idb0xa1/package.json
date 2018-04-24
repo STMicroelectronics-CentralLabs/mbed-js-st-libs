@@ -1,0 +1,18 @@
+{
+  "name": "mbed-js-st-x-nucleo-idb0xa1",
+  "author": {
+    "name": "STMicroelectronics"
+  },
+  "description": "JavaScript library for X-Nucleo-IDB0xA1 on Mbed OS",
+  "keywords": ["mbed", "js", "x-nucleo-idb0xa1", "st", "mbed-os"],
+  "homepage": "https://github.com/STMicroelectronics-CentralLabs/mbed-js-st-libs#readme",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/STMicroelectronics-CentralLabs/mbed-js-st-libs.git"
+  },
+  "dependencies": {
+    "mbed-js-st-ble": "1.x"
+  },
+  "version": "1.0.0"
+}

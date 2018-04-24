@@ -1,0 +1,16 @@
+{
+  "name": "mbed-js-st-devi2c",
+  "author": {
+    "name": "STMicroelectronics"
+  },
+  "description": "JavaScript library for DevI2C on Mbed OS",
+  "keywords": ["mbed", "js", "devi2c", "st", "mbed-os"],
+  "homepage": "https://github.com/STMicroelectronics-CentralLabs/mbed-js-st-libs#readme",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/STMicroelectronics-CentralLabs/mbed-js-st-libs.git"
+  },
+  "dependencies": {},
+  "version": "1.0.0"
+}

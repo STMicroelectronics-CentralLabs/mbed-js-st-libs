@@ -1,0 +1,9 @@
+{
+	"source": [
+		"."
+	],
+	"includes": [
+		"LSM6DSL_JS/LSM6DSL_JS-js.h"
+	],
+	"name": "LSM6DSL_JS_library"
+}

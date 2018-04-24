@@ -1,0 +1,9 @@
+{
+	"source": [
+		"."
+	],
+	"includes": [
+		"jerryscript-mbed-ble/lib_ble.h"
+	],
+	"name": "ble"
+}

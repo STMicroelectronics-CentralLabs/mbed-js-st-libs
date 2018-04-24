@@ -1,0 +1,9 @@
+{
+	"source": [
+		"."
+	],
+	"includes": [
+		"HTS221_JS/HTS221_JS-js.h"
+	],
+	"name": "HTS221_JS_library"
+}

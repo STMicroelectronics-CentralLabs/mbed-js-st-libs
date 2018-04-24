@@ -1,0 +1,9 @@
+{
+	"source": [
+		"."
+	],
+	"includes": [
+		"DevI2C_JS/DevI2C-js.h"
+	],
+	"name": "DevI2C_JS_library"
+}

@@ -1,0 +1,9 @@
+{
+	"source": [
+		"."
+	],
+	"includes": [
+		"LPS22HB_JS/LPS22HB_JS-js.h"
+	],
+	"name": "LPS22HB_JS_library"
+}

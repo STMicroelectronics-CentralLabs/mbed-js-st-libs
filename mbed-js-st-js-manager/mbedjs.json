@@ -1,0 +1,9 @@
+{
+	"source": [
+		"."
+	],
+	"includes": [
+		"JSManager/JSManager-js.h"
+	],
+	"name": "JSManager_library"
+}

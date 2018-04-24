@@ -1,0 +1,9 @@
+{
+	"source": [
+		"."
+	],
+	"includes": [
+		"MQTT_JS/MQTT_JS-js.h"
+	],
+	"name": "MQTT_JS_library"
+}

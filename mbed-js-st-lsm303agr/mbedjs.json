@@ -1,0 +1,9 @@
+{
+	"source": [
+		"."
+	],
+	"includes": [
+		"LSM303AGR_JS/LSM303AGR_JS-js.h"
+	],
+	"name": "LSM303AGR_JS_library"
+}

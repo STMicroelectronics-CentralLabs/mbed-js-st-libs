@@ -1,0 +1,9 @@
+{
+	"source": [
+		"."
+	],
+	"includes": [
+		"SerialInterface_JS/SerialInterface-js.h"
+	],
+	"name": "SerialInterface_library"
+}

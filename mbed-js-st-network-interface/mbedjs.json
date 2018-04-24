@@ -1,0 +1,9 @@
+{
+	"source": [
+		"."
+	],
+	"includes": [
+		"NetworkInterface_JS/NetworkInterface_JS-js.h"
+	],
+	"name": "NetworkInterface_JS_library"
+}
