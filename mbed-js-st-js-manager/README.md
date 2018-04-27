@@ -1,4 +1,4 @@
-# mbed-js-manager
+# mbed-js-st-js-manager
 JS Manager for Javascript on Mbed
 
 ## About library
@@ -9,25 +9,24 @@ This library is to be used with the following tools:
 * [Mbed](https://www.mbed.com/en/platform/mbed-os/)
 * [JerryScript](https://github.com/jerryscript-project/jerryscript)
 
-See this project for more information: [mbed-js-example](https://github.com/ARMmbed/mbed-js-example)
+See this project for more information: [mbed-js-st-fw-mqtt-example](https://github.com/STMicroelectronics-CentralLabs/mbed-js-st-examples/tree/master/mbed-js-st-fw-mqtt-example)
 
 ## Dependencies
 You need to install dependencies before installing this library.
-* [mbed-js-st-network-interface](https://github.com/syed-zeeshan/mbed-js-st-network-interface) 
-
+* [mbed-js-st-network-interface](https://www.npmjs.com/package/mbed-js-st-network-interface) 
 
 ## Installation
 * Before installing this library, make sure you have a working JavaScript on Mbed project and the project builds for your target device.
-Follow [mbed-js-example](https://github.com/ARMmbed/mbed-js-example) to create the project and learn more about using JavaScript on Mbed.
+Follow [mbed-js-st-fw-mqtt-example](https://github.com/STMicroelectronics-CentralLabs/mbed-js-st-examples/tree/master/mbed-js-st-fw-mqtt-example) to create the project and learn more about using JavaScript on Mbed.
 
 * Install this library using npm (Node package manager) with the following command:
 ```
 cd project_path
-npm install syed-zeeshan/mbed-js-manager
+npm install mbed-js-st-network-interface --save
 ```
 
 ## Configuration
-To use JS Manager, you need to configure the memory size you want to reserve from flash storage to be used for storing JS program. Open `mbed_app.json` and set the field `target.restrict-size` to restrict the main program size.
+To use JS Manager, you need to configure the memory size you want to reserve from flash storage to be used for storing JS program. Open `build/jerryscript/targets/mbedos5/mbed_app.json` (which will be created once you build the project using gulp for the first time) and set the field `target.restrict-size` to restrict the main program size.
 
 **Example for Nucleo-F429ZI:**
 
