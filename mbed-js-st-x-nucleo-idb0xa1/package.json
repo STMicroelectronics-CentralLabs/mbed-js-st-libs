@@ -12,7 +12,6 @@
     "url": "git+https://github.com/STMicroelectronics-CentralLabs/mbed-js-st-libs.git"
   },
   "dependencies": {
-    "mbed-js-st-ble": "1.x"
   },
-  "version": "1.0.0"
+  "version": "1.0.1"
 }
