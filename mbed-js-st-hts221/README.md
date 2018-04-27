@@ -1,4 +1,4 @@
-# mbed-js-hts221
+# mbed-js-st-hts221
 HTS221 library wrappers for Javascript on Mbed
 
 ## About library
@@ -12,9 +12,9 @@ This library is to be used with the following tools:
 See this project for more information: [mbed-js-x-nucleo-iks01a2-example](https://github.com/STMicroelectronics-CentralLabs/mbed-js-st-examples/tree/master/mbed-js-x-nucleo-iks01a2-example)
 
 ## Dependencies
-Install these libraries before installing this library
-* [mbed-js-st-spi](https://www.npmjs.com/package/mbed-js-st-spi)
-* [mbed-js-st-devi2c](https://www.npmjs.com/package/mbed-js-st-devi2c)
+Install one of these libraries before installing this library
+* If using SPI: [mbed-js-st-spi](https://www.npmjs.com/package/mbed-js-st-spi)
+* If using DevI2C: [mbed-js-st-devi2c](https://www.npmjs.com/package/mbed-js-st-devi2c)
 
 
 ## Installation
