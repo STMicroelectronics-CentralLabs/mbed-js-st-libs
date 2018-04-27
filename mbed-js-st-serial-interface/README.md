@@ -2,23 +2,23 @@
 Library to communicate with serial terminal.
 
 ## About library
-This library allows using Serial port as an JavaScript editor based on [mbed-js-repl-example](https://github.com/ARMmbed/mbed-js-repl-example). The JS program can be written and viewed in Serial port in real-time Serial port terminal. 
+This library allows using Serial port as an JavaScript editor based on [mbed-js-repl-example](https://github.com/ARMmbed/mbed-js-repl-example). The JS program can be written and viewed using Serial port in real-time Serial port terminal. 
 
 ## Requirements
 This library is to be used with the following tools:
 * [Mbed](https://www.mbed.com/en/platform/mbed-os/)
 * [JerryScript](https://github.com/jerryscript-project/jerryscript)
 
-See this project for more information: [mbed-js-st-fw-example](https://github.com/ARMmbed/mbed-js-st-fw-example)
+See this project for more information: [mbed-js-st-fw-mqtt-example](https://github.com/STMicroelectronics-CentralLabs/mbed-js-st-examples/tree/master/mbed-js-st-fw-mqtt-example)
 
 ## Installation
 * Before installing this library, make sure you have a working JavaScript on Mbed project and the project builds for your target device.
-Follow [mbed-js-st-fw-example](https://github.com/ARMmbed/mbed-js-st-fw-example) to create the project and learn more about using JavaScript on Mbed.
+Follow [mbed-js-st-fw-mqtt-example](https://github.com/STMicroelectronics-CentralLabs/mbed-js-st-examples/tree/master/mbed-js-st-fw-mqtt-example) to create the project and learn more about using JavaScript on Mbed.
 
 * Install this library using npm (Node package manager) with the following command:
 ```
 cd project_path
-npm install syed-zeeshan/mbed-js-st-serial-interface
+npm install mbed-js-st-serial-interface --save
 ```
 
 ## Usage
