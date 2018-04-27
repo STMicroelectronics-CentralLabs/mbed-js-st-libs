@@ -1,7 +1,7 @@
 # mbed-js-st-x-nucleo-idb0xa1
 This library exposes the mbed BLE API to JerryScript for ST BLE 
 
-JavaScript BLE_API wrapper Library for [X-NUCLEO-IDB05A1](https://github.com/ARMmbed/ble-x-nucleo-idb0xa1) BlueNRG (Bluetooth Low Energy) Expansion Board
+JavaScript BLE_API wrapper Library for [X-NUCLEO-IDB05A1](https://github.com/ARMmbed/ble-x-nucleo-idb0xa1) BlueNRG (Bluetooth Low Energy) Expansion Board using [mbed-js-ble](https://github.com/ARMmbed/mbed-js-ble) base.
 
 The following objects are exposed:
 
@@ -67,9 +67,8 @@ characteristic.onUpdate(function (newValue) {
     print("Updated! New value is " + newValue.length + ", first element is " + newValue[0]);
 });
 ```
-## Fork Details
 
-Implememted support for 128-bit UUIDs
+## 128-bit UUIDs
 
 Examples:
 
@@ -85,15 +84,6 @@ characteristic = BLECharacteristic('9100', ['read', 'write', 'notify'], 1);
 service = BLEService('9100', [ characteristic ]);
 service = BLEService('XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX', [ characteristic ]);
 
-```
-Implemented Long UUID support in BLEService.GetUUID()
-```js
-    uuid = service.GetUUID()
-```
-
-Added Manufacturer info in the startAdveritising method:
-
-```js
 // Valid methods
 // takes: name to advertise, array of UUIDs (strings)
 BLE ble = BLEDevice();
