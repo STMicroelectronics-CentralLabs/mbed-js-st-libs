@@ -1,4 +1,4 @@
-# mbed-js-lsm6dsl
+# mbed-js-st-lsm6dsl
 LSM6DSL library wrappers for Javascript on Mbed
 
 ## About library
@@ -9,21 +9,22 @@ This library is to be used with the following tools:
 * [Mbed](https://www.mbed.com/en/platform/mbed-os/)
 * [JerryScript](https://github.com/jerryscript-project/jerryscript)
 
-See this project for more information: [mbed-js-example](https://github.com/ARMmbed/mbed-js-example)
+See this project for more information: [mbed-js-x-nucleo-iks01a2-example](https://github.com/STMicroelectronics-CentralLabs/mbed-js-st-examples/tree/master/mbed-js-x-nucleo-iks01a2-example)
 
 ## Dependencies
-You need to install dependencies before installing this library.
-* If using SPI: [mbed-js-spi](https://github.com/syed-zeeshan/mbed-js-spi)
-* If using DevI2C: [mbed-js-devi2c](https://github.com/syed-zeeshan/mbed-js-devi2c)
+Install one of these libraries before installing this library
+* If using SPI: [mbed-js-st-spi](https://www.npmjs.com/package/mbed-js-st-spi)
+* If using DevI2C: [mbed-js-st-devi2c](https://www.npmjs.com/package/mbed-js-st-devi2c)
+
 
 ## Installation
 * Before installing this library, make sure you have a working JavaScript on Mbed project and the project builds for your target device.
-Follow [mbed-js-example](https://github.com/ARMmbed/mbed-js-example) to create the project and learn more about using JavaScript on Mbed.
+Follow [mbed-js-x-nucleo-iks01a2-example](https://github.com/STMicroelectronics-CentralLabs/mbed-js-st-examples/tree/master/mbed-js-x-nucleo-iks01a2-example) to create the project and learn more about using JavaScript on Mbed.
 
 * Install this library using npm (Node package manager) with the following command:
 ```
 cd project_path
-npm install syed-zeeshan/mbed-js-lsm6dsl
+npm install mbed-js-st-lsm6dsl --save
 ```
 
 ## Usage
