@@ -36,5 +36,5 @@ After initializing, you can connect device with any serial terminal and start co
 
 * __Flash JavaScript program to ROM:__
 
-    You can also flash the program currently being written using [mbed-js-manager](https://github.com/syed-zeeshan/mbed-js-manager) library. To flash the code, use `Ctrl+F` key to flash the code to ROM memory of the device.
+    You can also flash the program currently being written using [mbed-js-st-js-manager](https://www.npmjs.com/package/mbed-js-st-js-manager) library. To flash the code, use `Ctrl+F` key to flash the code to ROM memory of the device.
 
