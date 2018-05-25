@@ -1,144 +1,159 @@
-# [mbed-js-st-devi2c](https://github.com/STMicroelectronics-CentralLabs/mbed-js-st-libs#readme) *1.0.0*
+## Class
+
+<dl>
+<dt><a href="#DevI2C">DevI2C</a></dt>
+<dd></dd>
+</dl>
+
+## Functions
+
+<dl>
+<dt><a href="#frequency">frequency(frequency)</a></dt>
+<dd><p>Sets the frequency of the DevI2C bus.</p>
+</dd>
+<dt><a href="#start">start()</a></dt>
+<dd><p>Creates a start condition on the DevI2C bus.</p>
+</dd>
+<dt><a href="#stop">stop()</a></dt>
+<dd><p>Creates a stop condition on the DevI2C bus.</p>
+</dd>
+<dt><a href="#read">read(acknowledge)</a> ⇒</dt>
+<dd><p>Reads from DevI2C bus.</p>
+</dd>
+<dt><a href="#read">read(address, data, length)</a> ⇒</dt>
+<dd><p>Reads from DevI2C bus.</p>
+</dd>
+<dt><a href="#read">read(address, data, length, repeated)</a> ⇒</dt>
+<dd><p>Reads from DevI2C bus.</p>
+</dd>
+<dt><a href="#write">write(data)</a> ⇒</dt>
+<dd><p>Writes to DevI2C bus.</p>
+</dd>
+<dt><a href="#write">write(address, data, length)</a> ⇒</dt>
+<dd><p>Writes to DevI2C bus.</p>
+</dd>
+<dt><a href="#write">write(address, data, length, repeated)</a> ⇒</dt>
+<dd><p>Writes to DevI2C bus.</p>
+</dd>
+</dl>
 
-> JavaScript library for DevI2C on Mbed OS
+<a name="DevI2C"></a>
 
+## DevI2C
+**Kind**: global class
+<a name="new_DevI2C_new"></a>
 
-### DEVI2C_JS/DevI2C-js.js
+### new DevI2C(sda_pin, scl_pin)
+Create a new DevI2C instance
 
+**Returns**: <code>object</code> - - A JavaScript object representing the DevI2C bus.
 
-#### DECLARE_CLASS_FUNCTION(frequency) 
+| Param | Type | Description |
+| --- | --- | --- |
+| sda_pin | <code>number</code> | The SDA pin. |
+| scl_pin | <code>number</code> | The SCL pink. |
 
-DevI2C#frequency (native JavaScript method)
+<a name="frequency"></a>
 
+## frequency(frequency)
+Sets the frequency of the DevI2C bus.
 
+**Kind**: global function
 
+| Param | Type | Description |
+| --- | --- | --- |
+| frequency | <code>number</code> | New DevI2C Frequency |
 
-##### Parameters
+<a name="start"></a>
 
-| Name | Type | Description |  |
-| ---- | ---- | ----------- | -------- |
-| frequency |  | New DevI2C Frequency | &nbsp; |
+## start()
+Creates a start condition on the DevI2C bus.
 
+**Kind**: global function
+<a name="stop"></a>
 
+## stop()
+Creates a stop condition on the DevI2C bus.
 
+**Kind**: global function
+<a name="read"></a>
 
-##### Returns
+## read(acknowledge) ⇒
+Reads from DevI2C bus.
 
+**Kind**: global function
+**Returns**: array: Data read from the DevI2C bus
 
-- `Void`
+| Param | Type | Description |
+| --- | --- | --- |
+| acknowledge | <code>number</code> | Indicates if the byte is to be acknowledged (1 => acknowledge) |
 
+<a name="read"></a>
 
+## read(address, data, length) ⇒
+Reads from DevI2C bus.
 
-#### DECLARE_CLASS_FUNCTION(ack, address, data, length) 
+**Kind**: global function
+**Returns**: array: Data read from the DevI2C bus
 
-DevI2C#read (native JavaScript method)
+| Param | Type | Description |
+| --- | --- | --- |
+| address | <code>number</code> | DevI2C address to read from |
+| data | <code>array</code> | Array to read into |
+| length | <code>number</code> | Length of data to read |
 
+<a name="read"></a>
 
+## read(address, data, length, repeated) ⇒
+Reads from DevI2C bus.
 
+**Kind**: global function
+**Returns**: array: Data read from the DevI2C bus
 
-##### Parameters
+| Param | Type | Description |
+| --- | --- | --- |
+| address | <code>number</code> | DevI2C address to read from |
+| data | <code>array</code> | Array to read into |
+| length | <code>number</code> | Length of data to read |
+| repeated | <code>bool</code> | If true, do not send stop at end. |
 
-| Name | Type | Description |  |
-| ---- | ---- | ----------- | -------- |
-| ack |  | indicates if the byte is to be acknowledged (1 => acknowledge) | &nbsp; |
-| address |  | DevI2C address to read from | &nbsp; |
-| data |  | Array to read into | &nbsp; |
-| length |  | Length of data to read | &nbsp; |
+<a name="write"></a>
 
+## write(data) ⇒
+Writes to DevI2C bus.
 
+**Kind**: global function
+**Returns**: 1 on success, 0 on failure
 
+| Param | Type | Description |
+| --- | --- | --- |
+| data | <code>number</code> | Data byte to write to the DevI2C bus |
 
-##### Returns
+<a name="write"></a>
 
+## write(address, data, length) ⇒
+Writes to DevI2C bus.
 
--  array: Data read from the DevI2C bus
--  array: Data read from the DevI2C bus
+**Kind**: global function
+**Returns**: 0 on success, non-0 on failure
 
+| Param | Type | Description |
+| --- | --- | --- |
+| address | <code>number</code> | 8-bit DevI2C slave address |
+| data | <code>array</code> | Array of bytes to send |
+| length | <code>number</code> | Length of data to write |
 
+<a name="write"></a>
 
-#### DECLARE_CLASS_FUNCTION(data, address, data, length, repeated) 
+## write(address, data, length, repeated) ⇒
+Writes to DevI2C bus.
 
-DevI2C#write (native JavaScript method)
+**Kind**: global function
+**Returns**: 0 on success, non-0 on failure
 
-
-
-
-##### Parameters
-
-| Name | Type | Description |  |
-| ---- | ---- | ----------- | -------- |
-| data |  | Data byte to write to the DevI2C bus | &nbsp; |
-| address |  | 8-bit DevI2C slave address | &nbsp; |
-| data |  | Array of bytes to send | &nbsp; |
-| length |  | Length of data to write | &nbsp; |
-| repeated |  | (optional) If true, do not send stop at end. | &nbsp; |
-
-
-
-
-##### Returns
-
-
--  1 on success, 0 on failure
--  0 on success, non-0 on failure
-
-
-
-#### DECLARE_CLASS_FUNCTION() 
-
-DevI2C#start (native JavaScript method)
-
-
-
-
-
-
-##### Returns
-
-
-- `Void`
-
-
-
-#### DECLARE_CLASS_FUNCTION() 
-
-DevI2C#stop (native JavaScript method)
-
-
-
-
-
-
-##### Returns
-
-
-- `Void`
-
-
-
-#### DevI2C(sda_pin, scl_pin) 
-
-DevI2C (native JavaScript constructor)
-
-
-
-
-##### Parameters
-
-| Name | Type | Description |  |
-| ---- | ---- | ----------- | -------- |
-| sda_pin | `number`  | - The SDA pin. | &nbsp; |
-| scl_pin | `number`  | - The SCL pink. | &nbsp; |
-
-
-
-
-##### Returns
-
-
-- `object`  - A JavaScript object representing the DevI2C bus.
-
-
-
-
-*Documentation generated with [doxdox](https://github.com/neogeek/doxdox).*
+| Param | Type | Description |
+| --- | --- | --- |
+| address | <code>number</code> | 8-bit DevI2C slave address |
+| data | <code>array</code> | Array of bytes to send |
+| length | <code>number</code> | Length of data to write |
+| repeated | <code>bool</code> | If true, do not send stop at end. |
