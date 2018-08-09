@@ -1,0 +1,9 @@
+{
+	"source": [
+		"."
+	],
+	"includes": [
+		"NFC02A1/NFC02A1-js.h"
+	],
+	"name": "NFC02A1_library"
+}

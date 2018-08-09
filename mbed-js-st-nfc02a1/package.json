@@ -1,0 +1,16 @@
+{
+  "name": "mbed-js-st-nfc02a1",
+  "author": {
+    "name": "STMicroelectronics"
+  },
+  "description": "JavaScript library for X-Nucleo-NFC02A1 on Mbed OS",
+  "keywords": ["mbed", "js", "nfc", "nfc02a1", "st", "mbed-os"],
+  "homepage": "https://github.com/STMicroelectronics-CentralLabs/mbed-js-st-libs#readme",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/STMicroelectronics-CentralLabs/mbed-js-st-libs.git"
+  },
+  "dependencies": {},
+  "version": "1.0.0"
+}
